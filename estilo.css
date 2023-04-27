@@ -1,24 +1,27 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: aqua;
 }
 
 #caixas {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #edtPeso,
 #edtAltura {
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 20vh;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 20vh;
 }
 
 #btnCalcula {
-  padding: 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: large;
+    padding: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: large;
 }
